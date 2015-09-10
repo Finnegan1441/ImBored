@@ -1,0 +1,20 @@
+/* line 9, ../../sass/sass/style.scss */
+.start {
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  position: absolute;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 24, ../../sass/sass/style.scss */
+.green {
+  background: green;
+}

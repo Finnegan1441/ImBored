@@ -1,0 +1,27 @@
+$ButtonSize: 100px;
+
+
+html{
+
+}
+
+
+.start{
+height: $ButtonSize;
+width:$ButtonSize; 
+top: 50%;
+left: 50%;
+margin-left: -($ButtonSize/2);
+margin-top: -($ButtonSize/2);
+position: absolute;
+border-radius: $ButtonSize/2;
+text-align: center;
+line-height: $ButtonSize;
+color: white;
+cursor: pointer;
+
+}
+.green{
+	background: green;
+
+}

@@ -15,6 +15,9 @@ startButton.onclick = function(){
 		},
 		200);
 	$("<div>Click Here</div>").appendTo("#startButton").addClass("start");
+	$("#startButton").css('position', 'absolute');
+	$("#startButton").removeAttr('class');
+	$("#startButton").disabled=true;
 	$("#startButton").removeAttr('id');
 	color = '#'+Math.floor(Math.random()*16777215).toString(16);
 	$("div").last().css('background', color).attr('id', 'startButton');

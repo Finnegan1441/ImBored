@@ -13,7 +13,7 @@ function go(){
 		margin: 0,
 		borderRadius:0,
 		},
-		1000);
+		300);
 	$("<div>Click Here</div>").appendTo("#startButton").addClass("start");
 	$("#startButton").css('position', 'absolute');
 	$("#startButton").removeAttr('class');

@@ -24,6 +24,38 @@
   line-height: inherit;
 }
 
+/* line 38, ../../sass/sass/_basics.scss */
+.ratingsgeneral {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+/* line 43, ../../sass/sass/_basics.scss */
+.rating1 {
+  color: #3f3f3f;
+}
+
+/* line 46, ../../sass/sass/_basics.scss */
+.rating2 {
+  color: #3F7F3F;
+}
+
+/* line 49, ../../sass/sass/_basics.scss */
+.rating3 {
+  color: #3232FF;
+}
+
+/* line 52, ../../sass/sass/_basics.scss */
+.rating4 {
+  color: #A64CA6;
+}
+
+/* line 55, ../../sass/sass/_basics.scss */
+.rating5 {
+  color: #FFA500;
+}
+
 /* line 3, ../../sass/sass/gamepage.scss */
 body {
   background: #e46a6b;

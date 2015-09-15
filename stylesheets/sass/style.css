@@ -40,7 +40,6 @@ h1 {
 .start {
   height: 90px;
   width: 90px;
-  top: 500px;
   margin-left: -45px;
   margin-top: -45px;
   position: absolute;
@@ -50,25 +49,49 @@ h1 {
   color: white;
   cursor: pointer;
 }
-/* line 22, ../../sass/sass/style.scss */
+@media screen and (min-width: 768px) {
+  /* line 8, ../../sass/sass/style.scss */
+  .start {
+    top: 500px;
+  }
+}
+/* line 23, ../../sass/sass/style.scss */
 .start i {
   line-height: inherit;
 }
 
-/* line 28, ../../sass/sass/style.scss */
+/* line 29, ../../sass/sass/style.scss */
 .music {
   background: #3f3f3f;
   left: 50%;
 }
+@media screen and (max-width: 768px) {
+  /* line 29, ../../sass/sass/style.scss */
+  .music {
+    top: 400px;
+  }
+}
 
-/* line 32, ../../sass/sass/style.scss */
+/* line 34, ../../sass/sass/style.scss */
 .games {
   background: #e46a6b;
   left: 75%;
 }
+@media screen and (max-width: 768px) {
+  /* line 34, ../../sass/sass/style.scss */
+  .games {
+    top: 500px;
+  }
+}
 
-/* line 36, ../../sass/sass/style.scss */
+/* line 39, ../../sass/sass/style.scss */
 .movies {
   background: #6e6e6e;
   left: 25%;
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../../sass/sass/style.scss */
+  .movies {
+    top: 300px;
+  }
 }

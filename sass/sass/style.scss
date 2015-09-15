@@ -9,7 +9,8 @@ margin-top: 100px;}
 
 height: $ButtonSize;
 width:$ButtonSize; 
-top: 500px;
+@media screen and (min-width: 768px){
+top: 500px;}
 margin-left: -($ButtonSize/2);
 margin-top: -($ButtonSize/2);
 position: absolute;
@@ -27,13 +28,16 @@ cursor: pointer;
 }
 .music{
 	background: $Music;
+	@media screen and (max-width: 768px){top:400px;}
 	left: 50%;
 }
 .games{
 	background: $Games;
+	@media screen and (max-width: 768px){top:500px;}
  left: 75%;
 }
 .movies{
 	background: $Movies;
+	@media screen and (max-width: 768px){top:300px;}
 	left: 25%;
 }

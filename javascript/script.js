@@ -2,10 +2,6 @@ MusicButton = document.getElementById('MusicButton');
 MoviesButton = document.getElementById('MoviesButton');
 GamesButton = document.getElementById('GamesButton');
 
-
-
-
-
 MusicButton.onclick = function(){
 	$("#MusicButton").css('z-index', 9999);
 	$("#MusicButton").animate({

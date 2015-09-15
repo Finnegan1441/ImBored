@@ -1,4 +1,42 @@
-/* line 9, ../../sass/sass/style.scss */
+/* line 12, ../../sass/sass/_basics.scss */
+.symbol {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+/* line 19, ../../sass/sass/_basics.scss */
+.homebutton {
+  background: #040404;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+/* line 32, ../../sass/sass/_basics.scss */
+.homebutton i {
+  line-height: inherit;
+}
+
+/* line 4, ../../sass/sass/style.scss */
+body {
+  background: #040404;
+}
+
+/* line 5, ../../sass/sass/style.scss */
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+/* line 8, ../../sass/sass/style.scss */
 .start {
   height: 100px;
   width: 100px;
@@ -12,4 +50,26 @@
   line-height: 100px;
   color: white;
   cursor: pointer;
+}
+/* line 23, ../../sass/sass/style.scss */
+.start i {
+  line-height: inherit;
+}
+
+/* line 29, ../../sass/sass/style.scss */
+.music {
+  background: #3f3f3f;
+  left: 50%;
+}
+
+/* line 33, ../../sass/sass/style.scss */
+.games {
+  background: #e46a6b;
+  left: 75%;
+}
+
+/* line 37, ../../sass/sass/style.scss */
+.movies {
+  background: #6e6e6e;
+  left: 25%;
 }

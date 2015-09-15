@@ -1,12 +1,12 @@
-$ButtonSize: 100px;
+@import "basics";
 
 
-html{
-
-}
-
-
+body{background: $Background;}
+h1{text-align: center;
+	color:white;
+margin-top: 100px;}
 .start{
+
 height: $ButtonSize;
 width:$ButtonSize; 
 top: 50%;
@@ -20,4 +20,21 @@ line-height: $ButtonSize;
 color: white;
 cursor: pointer;
 
+ i{
+ 	line-height: inherit;
+
+ }
+
+}
+.music{
+	background: $Music;
+	left: 50%;
+}
+.games{
+	background: $Games;
+ left: 75%;
+}
+.movies{
+	background: $Movies;
+	left: 25%;
 }

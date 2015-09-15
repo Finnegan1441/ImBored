@@ -1,0 +1,30 @@
+/* line 12, ../../sass/sass/_basics.scss */
+.symbol {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+/* line 19, ../../sass/sass/_basics.scss */
+.homebutton {
+  background: #040404;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+/* line 32, ../../sass/sass/_basics.scss */
+.homebutton i {
+  line-height: inherit;
+}
+
+/* line 2, ../../sass/sass/moviepage.scss */
+body {
+  background: #6e6e6e;
+}

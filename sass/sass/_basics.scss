@@ -1,0 +1,37 @@
+//Colors
+$Background: #040404;
+$Music:#3f3f3f;
+$Games:#e46a6b;
+$Movies:#6e6e6e;
+
+
+//Sizes
+$ButtonSize: 100px;
+
+
+.symbol{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	
+
+}
+.homebutton{
+background: $Background;
+height: $ButtonSize;
+width:$ButtonSize; 
+border-radius: $ButtonSize/2;
+text-align: center;
+line-height: $ButtonSize;
+color: white;
+position: absolute;
+cursor: pointer;
+margin-left: 25px;
+margin-top: 5px;
+
+ i{
+ 	line-height: inherit;
+
+ }
+
+}

@@ -2,7 +2,7 @@
 .symbol {
   text-align: center;
   color: white;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 /* line 19, ../../sass/sass/_basics.scss */
@@ -41,7 +41,6 @@ h1 {
   height: 90px;
   width: 90px;
   top: 500px;
-  left: 50%;
   margin-left: -45px;
   margin-top: -45px;
   position: absolute;
@@ -51,24 +50,24 @@ h1 {
   color: white;
   cursor: pointer;
 }
-/* line 23, ../../sass/sass/style.scss */
+/* line 22, ../../sass/sass/style.scss */
 .start i {
   line-height: inherit;
 }
 
-/* line 29, ../../sass/sass/style.scss */
+/* line 28, ../../sass/sass/style.scss */
 .music {
   background: #3f3f3f;
   left: 50%;
 }
 
-/* line 33, ../../sass/sass/style.scss */
+/* line 32, ../../sass/sass/style.scss */
 .games {
   background: #e46a6b;
   left: 75%;
 }
 
-/* line 37, ../../sass/sass/style.scss */
+/* line 36, ../../sass/sass/style.scss */
 .movies {
   background: #6e6e6e;
   left: 25%;

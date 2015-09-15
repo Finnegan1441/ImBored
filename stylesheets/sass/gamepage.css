@@ -8,11 +8,11 @@
 /* line 19, ../../sass/sass/_basics.scss */
 .homebutton {
   background: #040404;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
   text-align: center;
-  line-height: 100px;
+  line-height: 90px;
   color: white;
   position: absolute;
   cursor: pointer;

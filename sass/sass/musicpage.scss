@@ -3,3 +3,23 @@ body{
 	background: $Music;
 color: white;
 }
+.reviewsrow{
+	margin-top: 20px;
+}
+.review{
+	border: 1px solid $Games;
+
+.title{
+	text-align: center;
+}
+.sorting{
+	text-align: center;
+}
+
+img{height: 100%;
+width:100%;}
+}
+.rating{
+	font-size: 30px;
+	text-align: center;
+}

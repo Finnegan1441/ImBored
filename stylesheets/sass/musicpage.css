@@ -72,3 +72,32 @@ body {
   background: #3f3f3f;
   color: white;
 }
+
+/* line 6, ../../sass/sass/musicpage.scss */
+.reviewsrow {
+  margin-top: 20px;
+}
+
+/* line 9, ../../sass/sass/musicpage.scss */
+.review {
+  border: 1px solid #e46a6b;
+}
+/* line 12, ../../sass/sass/musicpage.scss */
+.review .title {
+  text-align: center;
+}
+/* line 15, ../../sass/sass/musicpage.scss */
+.review .sorting {
+  text-align: center;
+}
+/* line 19, ../../sass/sass/musicpage.scss */
+.review img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 22, ../../sass/sass/musicpage.scss */
+.rating {
+  font-size: 30px;
+  text-align: center;
+}

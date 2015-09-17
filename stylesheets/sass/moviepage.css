@@ -26,35 +26,44 @@
 
 /* line 38, ../../sass/sass/_basics.scss */
 .ratingsgeneral {
-  margin-top: 20px;
   color: white;
   text-align: center;
   font-size: 20px;
 }
 
-/* line 44, ../../sass/sass/_basics.scss */
+/* line 43, ../../sass/sass/_basics.scss */
 .rating1 {
   color: #3f3f3f;
 }
 
-/* line 47, ../../sass/sass/_basics.scss */
+/* line 46, ../../sass/sass/_basics.scss */
 .rating2 {
   color: #3F7F3F;
 }
 
-/* line 50, ../../sass/sass/_basics.scss */
+/* line 49, ../../sass/sass/_basics.scss */
 .rating3 {
   color: #3232FF;
 }
 
-/* line 53, ../../sass/sass/_basics.scss */
+/* line 52, ../../sass/sass/_basics.scss */
 .rating4 {
   color: #A64CA6;
 }
 
-/* line 56, ../../sass/sass/_basics.scss */
+/* line 55, ../../sass/sass/_basics.scss */
 .rating5 {
   color: #FFA500;
+}
+
+/* line 67, ../../sass/sass/_basics.scss */
+.dropdownrow {
+  text-align: center;
+}
+/* line 69, ../../sass/sass/_basics.scss */
+.dropdownrow ul {
+  text-align: center;
+  left: 20%;
 }
 
 /* line 2, ../../sass/sass/moviepage.scss */

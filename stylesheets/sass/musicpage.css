@@ -56,12 +56,12 @@
   color: #FFA500;
 }
 
-/* line 67, ../../sass/sass/_basics.scss */
+/* line 60, ../../sass/sass/_basics.scss */
 .dropdownrow {
   text-align: center;
   margin-top: 60px;
 }
-/* line 70, ../../sass/sass/_basics.scss */
+/* line 63, ../../sass/sass/_basics.scss */
 .dropdownrow ul {
   text-align: center;
   left: 20%;
@@ -99,4 +99,9 @@ body {
 /* line 22, ../../sass/sass/musicpage.scss */
 .rating {
   text-align: center;
+}
+
+/* line 25, ../../sass/sass/musicpage.scss */
+.critic {
+  height: 94px;
 }
